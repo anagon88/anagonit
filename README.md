@@ -5,7 +5,7 @@ AnagonIT is a set of landing and support pages aimed at helping companies promot
 <!-- demo -->
 ## Example Site
 
-| [![](screenshots/index1.png)](https://demo.themefisher.com/AnagonIT/) | [![](screenshots/index2.png)](https://demo.themefisher.com/AnagonIT/index-2.html) | [![](screenshots/index3.png)](https://demo.themefisher.com/AnagonIT/index-3.html) |
+| [![](screenshots/index1.png)](https://demo.themefisher.com/AnagonIT/) | [![](screenshots/index2.png)](https://demo.themefisher.com/AnagonIT/index-2.html) | [![](screenshots/index3.png)](https://demo.themefisher.com/AnagonIT/index.html) |
 |:---:|:---:|:---:|
 | **Home 1**  | **Home 2**  | **Home 3** |
 | [![](screenshots/index4.png)](https://demo.themefisher.com/AnagonIT/index-4.html) | [![](screenshots/about.png)](https://demo.themefisher.com/AnagonIT/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/AnagonIT/service.html) |
@@ -105,7 +105,7 @@ If you have questions or need help integrating the product please [contact us](m
 <!-- license -->
 ## License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright (c) 2016 - Present, Designed & Developed by [AnagonIT](https://anagonIT.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/AnagonIT/blob/main/LICENSE) license.
 
