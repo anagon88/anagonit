@@ -169,7 +169,7 @@
     <div class="row">
       <div class="col-12">
         <!-- Contacts Form -->
-        <form class="contact_form">
+        <form class="contact_form" onsubmit="return false">
           <div class="row">
             <!-- Input -->
             <div class="col-sm-6 mb-6">
@@ -209,6 +209,8 @@
                     required=""
                     placeholder="john@gmail.com"
                     type="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    title="Invalid email address"
                   />
                 </div>
               </div>
@@ -230,7 +232,6 @@
                     class="form-control"
                     name="subject"
                     id="subject"
-                    required=""
                     placeholder="Web design"
                     type="text"
                   />
@@ -252,7 +253,6 @@
                     class="form-control"
                     id="phone"
                     name="phone"
-                    required=""
                     placeholder="1-800-643-4500"
                     type="text"
                   />
@@ -290,6 +290,7 @@
               value="Send Message"
               onclick="document.getElementById('success').style.visibility = 'visible'"
               disabled="true"
+              type="Submit"
             />
 
             <p class="small pt-3">
@@ -311,7 +312,9 @@
 </section>
 <script>
   document.getElementById("submit").onclick = function () {
-    document.getElementById("success").style.visibility = "visible";
+    if (document.getElementById("email").validity.valid) {
+      document.getElementById("success").style.visibility = "visible";
+    }
   };
 
   document.getElementById("email").onchange = function () {
