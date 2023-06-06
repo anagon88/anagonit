@@ -50,7 +50,8 @@
     <div class="row">
       <div class="col-12">
         <!-- Contacts Form -->
-        <form class="contact_form" onsubmit="return false">
+        <form class="contact_form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="77465d52-ebeb-4173-9ed1-04e841f1766b">
           <div class="row">
             <!-- Input -->
             <div class="col-sm-6 mb-6">
@@ -172,6 +173,7 @@
               onclick="document.getElementById('success').style.visibility = 'visible'"
               disabled="true"
               type="Submit"
+              value="send"
             />
 
             <p class="small pt-3">
